@@ -1,0 +1,20 @@
+﻿RÉSUMÉ PLACEHOLDER — YOUR NAME
+
+Replace this file with your actual résumé before publishing. Save your final résumé as assets/your-name-cv.pdf and update the Download résumé link in index.html to point to that PDF.
+
+Your Name
+[Professional Title] · [City, Country]
+[Professional email] · [Phone, optional]
+
+PROFILE
+[Write a concise professional summary.]
+
+EXPERIENCE
+[Job title] — [Organisation] | [Dates]
+[Responsibilities and substantiated outcomes.]
+
+EDUCATION
+[Qualification] — [Institution] | [Year]
+
+SKILLS
+[Relevant skills and tools]
