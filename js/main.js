@@ -55,17 +55,17 @@ $$('.filter').forEach((button) => {
 });
 
 // Contact form: validate, then prepare an email in the visitor's email app.
-$('#contact-form').addEventListener('submit', (event) => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
+///$('#contact-form').addEventListener('submit', (event) => {
+  //event.preventDefault();
+ // const form = event.currentTarget;
+ // if (!form.reportValidity()) return;
 
-  const data = new FormData(form);
-  const subject = encodeURIComponent(data.get('subject'));
-  const body = encodeURIComponent(
-    `From: ${data.get('name')} (${data.get('email')})\n\n${data.get('message')}`,
-  );
+ // const data = new FormData(form);
+ // const subject = encodeURIComponent(data.get('subject'));
+ // const body = encodeURIComponent(
+   // `From: ${data.get('name')} (${data.get('email')})\n\n${data.get('message')}`,
+ // );
 
-  $('#form-status').textContent = 'Opening your email app with the message ready to send.';
-  window.location.href = `mailto:aliyupython@gmail.com?subject=${subject}&body=${body}`;
-});
+ // $('#form-status').textContent = 'Opening your email app with the message ready to send.';
+ // window.location.href = `mailto:aliyupython@gmail.com?subject=${subject}&body=${body}`;
+//});
