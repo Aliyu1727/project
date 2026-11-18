@@ -67,5 +67,5 @@ $('#contact-form').addEventListener('submit', (event) => {
   );
 
   $('#form-status').textContent = 'Opening your email app with the message ready to send.';
-  window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:aliyupython@gmail.com?subject=${subject}&body=${body}`;
 });
